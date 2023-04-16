@@ -1,0 +1,255 @@
+<!-- START OF NAV FORMALITIES COPY OF BASE TOP SINCE THE LINK IS ANNOYING -->
+{% load static %}
+
+<link rel="stylesheet" href="{% static 'hotelapp/assets/css/joeblog.css' %}">
+
+<html lang="en"><head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Software Studio II 2023 Final Project.">
+    <meta name="authors" content="Pierre Rheeder, Apoorva Singh">
+    <title>SKYE RESORTS & HOTELS</title>
+
+</head><body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+    
+    
+    <!-- font icons -->
+    <link rel="stylesheet" href="./faq_files/themify-icons.css">
+    <!-- Bootstrap + JoeBLog main styles -->
+	<link rel="stylesheet" href="./faq_files/joeblog.css">
+    
+
+    <!-- Page Navigation -->
+    <nav class="navbar custom-navbar navbar-expand-md navbar-light bg-primary sticky-top">
+        <div class="container">
+
+
+            <a class="navbar-brand" href="#">
+                <img src="{% static 'hotelapp/assets/images/Whitelogo.png' %}" alt="" class="logo">
+            </a>
+
+
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">                     
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'home' %}">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'profile' %}">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'about' %}">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'faq' %}">FAQ</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="javascript:void(0)" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            More
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="{% url 'about' %}">Contact</a>
+                            <a class="dropdown-item" hhref="{% url 'login' %}">Login</a>
+                        </div>
+                    </li>
+                </ul>
+                <div class="navbar-nav ml-auto">
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- End Of Page Navigation -->
+<!-- END OF NAV FORMALITIES OF BASE TOP SINCE THE LINK IS ANNOYING -->
+
+    <!-- Page Header -->
+    
+    
+    <header class="page-header-faq">
+        <h1 class="titlefaq">Frequently Asked Questions</h1>
+    </header>
+    <!-- End Of Page Header -->
+
+
+
+    <section class="container">
+        <div class="page-container">
+            <div class="page-content">
+                <div class="card">
+
+                    <div class="card-header pt-0">
+                        <h5 class="card-title mb-4">Q1. What are the check-in and check-out timings?</h3>
+                        <div class="blog-media mb-1">                  
+                        </div>  
+                    </div>
+                    <div class="card-body border-top">
+                        <p class="my-1">Our check-in time is after 3:00 PM and check-out time is before 11:00 AM. Please note that early check-in and late check-out may be available upon request, subject to availability. </p> 
+                    </div>
+
+                    <br><br>
+
+                    <div class="card-header pt-0">
+                        <h5 class="card-title mb-4">Q2. What type of amenities are available?</h3>
+                        <div class="blog-media mb-1">                  
+                        </div>  
+                    </div>
+                    <div class="card-body border-top">
+                        <p class="my-1">Our amenities include a heated outdoor pool, fitness center, and complimentary high-speed WiFi in all our rooms and public areas. A wide range of additional services such as laundry, dry cleaning, and concierge are also available.</p> 
+                    </div>
+
+                    <br><br>
+
+                    <div class="card-header pt-0">
+                        <h5 class="card-title mb-4">Q3. Are there any pet-friendly rooms?</h3>
+                        <div class="blog-media mb-1">                  
+                        </div>  
+                    </div>
+                    <div class="card-body border-top">
+                        <p class="my-1">Yes, we offer pet-friendly rooms upon request. A $50 pet fee per night is applicable.</p> 
+                    </div>
+
+                    <br><br>
+
+                    <div class="card-header pt-0"><p class="my-1"></p>
+                        <h5 class="card-title mb-4">Q4. Is there a restaurant onsite?</h3>
+                        <div class="blog-media mb-1">                  
+                        </div>  
+                    </div>
+                    <div class="card-body border-top">
+                        <p class="my-1">Yes, we have an onsite restaurant, The Bistro, serving breakfast, lunch, and dinner. We also offer room service for guests who prefer to enjoy their meal in the comfort of their rooms.</p> 
+                    </div>
+
+                    <br><br>
+
+                    <div class="card-header pt-0">
+                        <h5 class="card-title mb-4">Q5. Is parking available?</h3>
+                        <div class="blog-media mb-1">                  
+                        </div>  
+                    </div>
+                    <div class="card-body border-top">
+                        <p class="my-1">Yes, we offer complimentary self-parking for our guests.</p> 
+                    </div>
+
+                    <br><br>
+
+                    <div class="card-header pt-0">
+                        <h5 class="card-title mb-4">Q6. Are there any safety features in the rooms?</h3>
+                        <div class="blog-media mb-1">                  
+                        </div>  
+                    </div>
+                    <div class="card-body border-top">
+                        <p class="my-1"> Yes, all our rooms are equipped with smoke detectors, fire alarms, and safety locks. The entire premise is CCTV monitored.</p> 
+                    </div>
+
+                    <div class="card-header pt-0">
+                        <h5 class="card-title mb-4">Q7. How do I book a room?</h3>
+                        <div class="blog-media mb-1">                  
+                        </div>  
+                    </div>
+                    <div class="card-body border-top">
+                        <p class="my-1"> The rooms can be viewed and booked here.</p> 
+                    </div>
+
+                        {% for rm in room %}
+
+                        <a href="{% url 'roomInfo' rm.id %}">{{rm.name}}</a>
+                        <br>
+
+                        {% endfor %}
+                </div> 
+            </div>
+        </div>
+    </section>
+
+    <div class="instagram-wrapper mt-5">
+        
+        <a href="javascript:void(0)" class="insta-item">
+            <img src="{% static 'hotelapp/assets/images/petroom.jpg' %}"  alt="" class="h-100px">
+            <div class="overlay">
+                <span>
+                    Pet Freindly Rooms
+               </span>
+            </div>
+        </a>
+
+        <a href="javascript:void(0)" class="insta-item">
+            <img src="{% static 'hotelapp/assets/images/room.jpg' %}"  alt="" class="h-100px">
+            <div class="overlay">
+                <span>
+                    Double Rooms
+               </span>
+            </div>
+        </a>
+        <a href="javascript:void(0)" class="insta-item">
+            <img src="{% static 'hotelapp/assets/images/lamps.jpg' %}"  alt="" class="h-100px">
+            <div class="overlay">
+                <span>
+                    Lounge
+               </span>
+            </div>
+        </a>
+        <a href="javascript:void(0)" class="insta-item">
+            <img src="{% static 'hotelapp/assets/images/dining.jpg' %}"  alt="" class="h-100px">
+            <div class="overlay">
+                <span>
+                    Dining
+               </span>
+            </div>
+        </a>
+        <a href="javascript:void(0)" class="insta-item">
+            <img src="{% static 'hotelapp/assets/images/pool.jpg' %}"  alt="" class="h-100px">
+            <div class="overlay">
+                <span>
+                    Pool
+               </span>
+            </div>
+        </a>
+        
+        <a href="javascript:void(0)" class="insta-item">
+            <img src="{% static 'hotelapp/assets/images/table.jpg' %}"  alt="" class="h-100px">
+            <div class="overlay">
+                <span>
+                    Single Rooms
+               </span>
+            </div>
+        </a>
+
+        <a href="javascript:void(0)" class="insta-item">
+            <img src="{% static 'hotelapp/assets/images/parking1.jpg' %}"  alt="" class="h-100px">
+            <div class="overlay">
+                <span>
+                    Parking
+               </span>
+            </div>
+        </a>
+
+
+    </div>
+
+    <!-- Page Footer -->
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md-3 text-center text-md-left mb-3 mb-md-0">
+                    
+                    <img src="{% static 'hotelapp/assets/images/Blacklogo.png' %}" alt="" class="logo">
+                    
+                </div>
+            </div>
+            <p>Software Studio II 2023 Winter Final Project | Pierre Rheeder, Apoorva Singh</p> 
+        </div>      
+    </footer>
+    <!-- End of Page Footer -->
+
+
+	<!-- core  -->
+    <script src="./faq_files/jquery-3.4.1.js"></script>
+    <script src="./faq_files/bootstrap.bundle.js"></script>
+
+    <!-- JoeBLog js -->
+    <script src="./faq_files/joeblog.js"></script>
+
+</body></html>

@@ -1,0 +1,83 @@
+[
+    {
+      "model": "hotelapp.rooms",      
+      "pk": 1,
+      "fields": {
+        "floor": "1",
+        "name": "101",
+        "clean_status": "1"
+      }
+    },
+    {
+      "model": "hotelapp.rooms",
+      "pk": 2,
+      "fields": {
+        "floor": "1",
+        "name": "102",
+        "clean_status": "1"
+      }
+    },
+    {
+        "model": "hotelapp.rooms",
+        "pk": 3,
+        "fields": {
+          "floor": "1",
+          "name": "103",
+          "clean_status": "1"
+        }
+    },
+    {
+        "model": "hotelapp.rooms",
+        "pk": 4,
+        "fields": {
+        "floor": "2",
+        "name": "201",
+        "clean_status": "1"
+        }
+    },
+    {
+        "model": "hotelapp.rooms",
+        "pk": 5,
+        "fields": {
+            "floor": "2",
+            "name": "202",
+            "clean_status": "1"
+        }
+    },
+    {
+        "model": "hotelapp.rooms",
+        "pk": 6,
+        "fields": {
+        "floor": "2",
+        "name": "203",
+        "clean_status": "1"
+        }
+    },
+    {
+        "model": "hotelapp.rooms",
+        "pk": 7,
+        "fields": {
+            "floor": "3",
+            "name": "301",
+            "clean_status": "1"
+        }
+    },
+    {
+        "model": "hotelapp.rooms",
+        "pk": 8,
+        "fields": {
+        "floor": "3",
+        "name": "302",
+        "clean_status": "1"
+        }
+    },
+    {
+        "model": "hotelapp.rooms",
+        "pk": 9,
+        "fields": {
+            "floor": "3",
+            "name": "303",
+            "clean_status": "1"
+        }
+    }
+  ]
